@@ -9,7 +9,7 @@ const paths = {
 
 
 module.exports = {
-  entry: path.join(paths.JS, 'app.js'),
+  entry: path.join(paths.JS, 'client.js'),
   output: {
     path: paths.DIST,
     filename: 'app.bundle.js'
